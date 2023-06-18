@@ -9,3 +9,24 @@
 .active-link {
   @apply text-[#2075f0];
 }
+
+.my-container {
+  @apply w-[1530px] mx-auto;
+}
+
+.product-card {
+  @apply hover:bg-white duration-300 !important;
+}
+
+.product-card:hover .img img {
+  @apply grayscale-0;
+}
+
+.products-section {
+  background: rgb(233, 244, 255);
+  background: linear-gradient(
+    168deg,
+    rgba(233, 244, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
