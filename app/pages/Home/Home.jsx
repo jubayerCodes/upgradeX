@@ -4,6 +4,7 @@ import Brands from './Brands/Brands';
 import Products from './Products/Products';
 import Effects from './Effects/Effects';
 import Features from './Features/Features';
+import Steps from './Steps/Steps';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Products />
             <Effects />
             <Features />
+            <Steps />
         </>
     );
 };
