@@ -10,8 +10,8 @@ import Image from 'next/image';
 const Products = () => {
     return (
         <section className='py-40 mt-2 products-section relative'>
-            <Image src={bgImage} width={340} className='absolute top-5 left-0' />
-            <Image src={bgImage} width={340} className='absolute bottom-0 right-0' />
+            <Image src={bgImage} width={340} alt='' className='absolute top-5 left-0' />
+            <Image src={bgImage} width={340} alt='' className='absolute bottom-0 right-0' />
 
             <div className='mx-auto w-fit text-center mb-12'>
                 <h2 className='text-2xl font-bold'>Products on ZET</h2>

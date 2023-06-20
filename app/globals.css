@@ -15,7 +15,11 @@
 }
 
 .product-card {
-  @apply hover:bg-white duration-300 !important;
+  @apply hover:bg-white duration-100 hover:scale-[1.03] !important;
+}
+
+.product-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.048) 0px 7px 29px 0px;
 }
 
 .product-card:hover .img img {
@@ -29,4 +33,24 @@
     rgba(233, 244, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+.effects-section {
+  clip-path: polygon(0% 25%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+.effects-container {
+  clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
+}
+
+.swiper-horizontal > .swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+.swiper-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  @apply top-[90%] w-[400px] rounded-full h-[7px] !important;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  @apply bg-white rounded-full !important
 }
